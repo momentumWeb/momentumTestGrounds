@@ -7,5 +7,5 @@ def home():
     return "Hello world!"
 
 @app.route('/app')
-def app():
+def application():
     return render_template('index.html')
